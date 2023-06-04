@@ -1,0 +1,21 @@
+{
+    "APP": {
+        "ENVIRONMENT": "run",
+        "DEBUG": true
+    },
+    "DATABASE": {
+        "USERNAME": "root",
+        "PASSWORD": "password",
+        "HOST": "127.0.0.1",
+        "PORT": 5432,
+        "DB": "performance_data"
+    },
+    "NETWORK": {
+        "PIMG_HOSTS": [
+            "8.8.8.8",
+            "192.168.1.1"
+        ],
+        "COUNT": 1,
+        "TRACE_HOSTS": ["www.google.com", "www.yahoo.com"]
+    }
+}
